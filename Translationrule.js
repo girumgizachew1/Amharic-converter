@@ -1,7 +1,5 @@
 const transcriptionRules = {
-    // Basic characters
-
-    // combined but with vowel
+//the rules for the most amharic word
     h: "ህ",
     "ህe": "ሀ",
     "ህu": "ሁ",

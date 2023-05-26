@@ -11,7 +11,7 @@ function convertToAmharic(text) {
   // Return the converted text
   return convertedText;
 }
-
+//exporting the funtion
 module.exports = {
   convertToAmharic
 };
