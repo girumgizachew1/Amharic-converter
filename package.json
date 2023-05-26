@@ -1,0 +1,21 @@
+{
+  "name": "amharic-converter",
+  "version": "1.0.1",
+  "description": "this is a converter that can help you write in amharic in your application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/girumgizachew1/Amharic-converter.git"
+  },
+  "keywords": [
+    "amharic-converter"
+  ],
+  "author": "Girum Gizachew",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
