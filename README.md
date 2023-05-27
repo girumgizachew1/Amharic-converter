@@ -15,7 +15,7 @@ npm install amharic-converter
 
 
 ## Usage with Example
-o enable the conversion of English text to Amharic in real-time, you need to create a state variable that will hold the Amharic text. Additionally, you should implement an event handler that updates the state variable whenever the input text changes.
+To enable the conversion of English text to Amharic in real-time, you need to create a state variable that will hold the Amharic text. Additionally, you should implement an event handler that updates the state variable whenever the input text changes.
 
 Here's an example of how you can accomplish this in JavaScript:
 
@@ -48,6 +48,28 @@ To integrate this functionality into your application, you can use the amharicTe
 ```
 
 In the above code, the value attribute of the input element is bound to the amharicText state variable, ensuring that it reflects the current converted Amharic text. The onChange event is connected to the handleInputChange function, so any changes to the input will trigger the conversion and update the state accordingly.
+
+## Usage with Node
+#### Step 1: create node project
+``` npm init ```
+#### Step 2: add amharic-converter as dependency
+```npm install amharic-converter```
+#### Step 3: 
+```javascript
+# index.js
+const { convertToAmharic } = require("amharic-converter");
+
+const amharicString = "Selam new"
+const result = convertToAmharic(amharicString)
+
+console.log(result)
+```
+
+#### Step 4: run the code in your terminal
+``` node index.js ```
+#### Expected output
+``` ሠላም ነው```
+
 ## Authors
 
 - [@girumgizachew1](https://www.github.com/girumgizachew)
