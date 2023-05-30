@@ -1,5 +1,5 @@
 const transcriptionRules = {
-//the rules for the most amharic word
+    //the rules for the most amharic word
     h: "ህ",
     "ህe": "ሀ",
     "ህu": "ሁ",
@@ -91,10 +91,6 @@ const transcriptionRules = {
     "ሻa": "ሿ",
 
 
-
-
-
-
     "q": "ቅ",
     "ቅe": "ቀ",
     "ቅu": "ቁ",
@@ -112,26 +108,6 @@ const transcriptionRules = {
     "ቍa": "ቋ",
     "ቈe": "ቌ",
     "ቍé": "ቌ",
-
-    //qh = qq
-    "ቅህ": "ቕ",
-    "ቅቅ": "ቕ",
-    "ቕe": "ቐ",
-    "ቕu": "ቑ",
-    "ቕi": "ቒ",
-    "ቕa": "ቓ",
-    "ቐe": "ቔ",
-    "ቕé": "ቔ",
-    "ቕo": "ቖ",
-
-
-    "ቕው": "ቝ",
-    "ቝe": "ቘ",
-    "ቝi": "ቚ",
-    "ቝa": "ቛ",
-    "ቘe": "ቜ",
-    "ቝé": "ቜ",
-
 
 
     "[bB]": "ብ",
@@ -155,6 +131,7 @@ const transcriptionRules = {
     "ቭé": "ቬ",
     "ቭo": "ቮ",
     "ቫa": "ቯ",
+
 
     "t": "ት",
     "ትe": "ተ",
@@ -228,7 +205,6 @@ const transcriptionRules = {
     "ኵa": "ኳ",
     "ኰe": "ኴ",
     "ኵé": "ኴ",
-
 
     //x =kk
     "x": "ኽ",
