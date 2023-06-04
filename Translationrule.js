@@ -91,11 +91,7 @@ const transcriptionRules = {
     "ሻa": "ሿ",
 
 
-
-
-
-
-    "q": "ቅ",
+    "[qQ]": "ቅ",
     "ቅe": "ቀ",
     "ቅu": "ቁ",
     "ቅi": "ቂ",
@@ -166,7 +162,7 @@ const transcriptionRules = {
     "ታa": "ቷ",
 
 
-    w: "ው",
+    "[wW]": "ው",
     "ውe": "ወ",
     "ውu": "ዉ",
     "ውi": "ዊ",
@@ -211,7 +207,7 @@ const transcriptionRules = {
     "ኛa": "ኟ",
 
 
-    "k": "ክ",
+    "[kK]": "ክ",
     "ክe": "ከ",
     "ክu": "ኩ",
     "ክi": "ኪ",
@@ -231,7 +227,7 @@ const transcriptionRules = {
 
 
     //x =kk
-    "x": "ኽ",
+    "[xX]": "ኽ",
     "ክክ": "ኽ",
     "ክኅ": "ኽ",
     "ኽe": "ኸ",
@@ -272,7 +268,7 @@ const transcriptionRules = {
     "ዥo": "ዦ",
     "ዣa": "ዧ",
 
-    "y": "ይ",
+    "[yY]": "ይ",
     "ይe": "የ",
     "ይu": "ዩ",
     "ይi": "ዪ",
