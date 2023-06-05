@@ -13,23 +13,27 @@ You can install the package via npm:
 npm install amharic-converter
 ```
 
-
 ## Usage with Example
+<<<<<<< HEAD
 To enable the conversion of English text to Amharic in real-time, you need to create a state variable that will hold the Amharic text. Additionally, you should implement an event handler that updates the state variable whenever the input text changes.
+=======
+
+o enable the conversion of English text to Amharic in real-time, you need to create a state variable that will hold the Amharic text. Additionally, you should implement an event handler that updates the state variable whenever the input text changes.
+>>>>>>> 62936b76a87ddb0fbef23799df2d9b25c34d5866
 
 Here's an example of how you can accomplish this in JavaScript:
 
 ```javascript
-import { convertToAmharic } from 'amharic-converter';
+import { convertToAmharic } from "amharic-converter";
 
 // Create a state variable to hold the Amharic text
-const [amharicText, setAmharicText] = useState('');
+const [amharicText, setAmharicText] = useState("");
 
 // Define an event handler to update the state when the input changes
 const handleInputChange = (event) => {
-    const englishText = event.target.value;
-    const convertedText = convertToAmharic(englishText);
-    setAmharicText(convertedText);
+  const englishText = event.target.value;
+  const convertedText = convertToAmharic(englishText);
+  setAmharicText(convertedText);
 };
 ```
 
@@ -40,15 +44,12 @@ The handleInputChange function is responsible for updating the state variable wh
 To integrate this functionality into your application, you can use the amharicText state variable to display the converted Amharic text within an input element. Here's an example of how you can achieve this in JSX:
 
 ```javascript
-<input
-    type="text"
-    value={amharicText}
-    onChange={handleInputChange}
-/>
+<input type="text" value={amharicText} onChange={handleInputChange} />
 ```
 
 In the above code, the value attribute of the input element is bound to the amharicText state variable, ensuring that it reflects the current converted Amharic text. The onChange event is connected to the handleInputChange function, so any changes to the input will trigger the conversion and update the state accordingly.
 
+<<<<<<< HEAD
 ## Usage with Node
 #### Step 1: create node project
 ``` npm init ```
@@ -70,10 +71,11 @@ console.log(result)
 #### Expected output
 ``` ሠላም ነው```
 
+=======
+>>>>>>> 62936b76a87ddb0fbef23799df2d9b25c34d5866
 ## Authors
 
-- [@girumgizachew1](https://www.github.com/girumgizachew)
-
+- [@girumgizachew1](https://www.github.com/girumgizachew1)
 
 ## Contributing
 
@@ -82,4 +84,3 @@ Contributions are always welcome!
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
-

@@ -4,7 +4,7 @@
   "description": "this is a converter that can help you write in amharic in your application ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha src/test/test.js"
   },
   "repository": {
     "type": "git",
