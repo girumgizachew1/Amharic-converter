@@ -1,4 +1,4 @@
-const transcriptionRules = require('./helpers/Translationrule');
+const transcriptionRules = require('./Translationrule');
 
 function convertToAmharic(text) {
   let convertedText = text;
