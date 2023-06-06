@@ -6,6 +6,7 @@ function convertToAmharic(text, config = {}) {
   let convertedText = text;
   let suggestions = [];
   let correctedText = convertedText;
+  
   // Apply the transcription rules to convert the text to Amharic
   for (const rule in transcriptionRules) {
     const regex = new RegExp(rule, "g");
