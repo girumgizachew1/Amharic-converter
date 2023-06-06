@@ -8,9 +8,9 @@ const englishText4 = 'ts';
 const numbers = '1356';
 
 
-const amharicText = convertToAmharic(numbers, {
+const amharicText = convertToAmharic(englishText1, {
     includeNumbers:true,
     enhance: false,
   });
-console.log(amharicText);
+console.log(amharicText.convertedText);
 
