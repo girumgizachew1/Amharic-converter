@@ -5,10 +5,11 @@ const englishText1 = 'Me mu mi ma mee m mo mua mY  , Se Su Si Sa See S So Sua , 
 const englishText2 = 'A U I EA EE E O ';
 const englishText3 = 'beTm';
 const englishText4 = 'ts';
+const numbers = '1356';
 
 
-const amharicText = convertToAmharic(englishText2, {
-    includeNumbers:false,
+const amharicText = convertToAmharic(numbers, {
+    includeNumbers:true,
     enhance: false,
   });
 console.log(amharicText);
