@@ -5,6 +5,9 @@ const englishText1 = 'Me mu mi ma mee m mo mua mY  , Se Su Si Sa See S So Sua , 
 const englishText2 = 'se su si sa see s so sua ';
 const englishText3 = 'beTm';
 
-const amharicText = convertToAmharic(englishText3);
+const amharicText = convertToAmharic(englishText3, {
+    includeNumbers:false,
+    enhance: true,
+  });
 console.log(amharicText);
 
