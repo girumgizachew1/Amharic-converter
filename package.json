@@ -2,7 +2,7 @@
   "name": "amharic-converter",
   "version": "1.0.4",
   "description": "this is a converter that can help you write in amharic in your application ",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha src/test/test.js"
   },
