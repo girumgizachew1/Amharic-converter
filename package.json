@@ -1,6 +1,6 @@
 {
   "name": "amharic-converter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this is a converter that can help you write in amharic in your application ",
   "main": "src/index.js",
   "scripts": {
